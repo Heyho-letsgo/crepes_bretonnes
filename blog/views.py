@@ -26,4 +26,3 @@ def addition(request, nombre1, nombre2, nom="André", age = "28"):
 
     # retourne nombre1, nombre2 et la somme des deux
     return render(request, 'blog/addition.html', locals())
-
